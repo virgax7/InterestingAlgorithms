@@ -1,0 +1,8 @@
+# Problem Statement
+# Given a list of cities, where each city name is an index, and it points
+# to another city by its value; if it points to its own index, it's defined as capital city. 
+# i.e. [3, 0, 2, 2, 0] -> index 0 points to index 3 city in the list. 
+# Index 3 city points to index 2 city, where index 2 city is 
+# the capital. Return a list, where the list contains number of 
+# elements corresponding to the distance, which is represented by index, to the capital city.
+# i.e. input [3, 0, 2, 2, 0] => [1, 1, 1, 2]
